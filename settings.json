@@ -4,9 +4,17 @@
         120
     ],
     "editor.lineNumbers": "relative",
+    "editor.formatOnSave": true,
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     "python.venvPath": "~/.virtualenvs",
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--ignore",
+        "E203"
+    ],
+    "python.formatting.provider": "black",
+    "python.formatting.blackPath": "/usr/local/bin/black",
     "gitlens.advanced.messages": {
         "suppressCommitHasNoPreviousCommitWarning": false,
         "suppressCommitNotFoundWarning": false,
@@ -35,5 +43,10 @@
         "endblock",
         "jira",
         "wakeups"
-    ]
+    ],
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    }
 }
