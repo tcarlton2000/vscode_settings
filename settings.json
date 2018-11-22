@@ -1,0 +1,39 @@
+{
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "editor.lineNumbers": "relative",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "python.venvPath": "~/.virtualenvs",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressUpdateNotice": false,
+        "suppressWelcomeNotice": true
+    },
+    "files.exclude": {
+        "**/*.pyc": true,
+        //"**/*.pyc": { "when": "$(basename).py"}
+    },
+    "editor.minimap.enabled": true,
+    "markdown.extension.preview.autoShowPreviewToSide": false,
+    "gitlens.keymap": "alternate",
+    "window.zoomLevel": 0,
+    "gitlens.historyExplorer.enabled": true,
+    "cSpell.userWords": [
+        "Asynchronicity",
+        "Fanout",
+        "Mutex",
+        "endblock",
+        "jira",
+        "wakeups"
+    ]
+}
